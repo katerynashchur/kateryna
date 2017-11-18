@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 RUN mkdir -p /tmp
-WORKDIR /tmp
+WORKDIR /workspace
 
 COPY . /tmp
 
